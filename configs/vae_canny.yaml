@@ -1,0 +1,11 @@
+dataset: 'metal_plate'
+batch_size: 10
+
+model: VAE
+learning_rate: 0.01
+epochs: 25
+
+savename: vae_canny
+with_canny: True
+
+save_checkpoint: 10
